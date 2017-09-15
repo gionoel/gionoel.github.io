@@ -1,0 +1,142 @@
+html {
+}
+body {
+    font-family:"Raleway";
+}
+h2 {
+    font-weight: 700;
+    margin-bottom:30px;
+}
+
+hr {
+    width:65%;
+    margin-bottom:40px;
+    color:ghostwhite;
+}
+.page-header {
+    letter-spacing: 20px;
+}
+#headerCont {
+    height:100vh;
+    display:flex;
+    width:100%;
+    align-items:center;
+    justify-content: center;
+}
+.jumbotron {
+    padding:0;
+    border: 0;
+    margin:0;
+    background: rgba(0, 0, 0, .6) url(images/oki.jpg) no-repeat fixed;
+    background-size:cover;
+}
+
+.navbar {
+    height:55px;
+}
+.navbar-brand {
+    
+}
+
+.container-fluid {
+    padding: 75px;
+}
+#aboutCont {
+    background-image: url(images/portraitbwtra.png);
+    background-size:25%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 17% 100%;
+}
+
+#aboutCont p {
+    text-align: justify;
+}
+#aboutme {
+    padding:75px; 
+}
+
+#skillsCont {
+    background-color:#FFF3F3;
+}
+
+.skillicons {
+    font-size: 125px;
+    padding:50px;  
+    width:300px;
+    border: 5px solid white;
+    border-radius: 20px;
+    color:black;
+}
+
+#projCont {
+    background-color:lightgray;
+    padding:75px;
+}
+
+#contactCont {
+    background-image:url(images/Website-Design-Background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:white;
+}
+
+#contSection h4 {
+    margin-bottom: 30px;
+}
+#contDetails {
+    margin-bottom:50px;
+}
+/*forms*/
+#email, #name {
+    border-radius: 0;
+    height:50px;
+}
+#comments {
+    border-radius: 0;
+}
+#socialm a i  {
+    color:white;
+    padding:15px;
+}
+/*icon colors on hover*/
+.fa-twitter:hover {
+    background:#00aced;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transition:.5s;
+}
+.fa-facebook:hover {
+    background:#3b5998;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transition:.5s;
+}
+.fa-instagram:hover {
+    background:radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transition:.5s;
+}
+
+.fa-linkedin:hover {
+    background:#0077b5;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transition:.5s;
+}
+.fa-ul {
+    margin-bottom: 25px;
+}
+.fa-ul li {
+    margin-bottom:10px;
+}
+
+@media screen and (max-width:765px) {
+    #aboutCont {
+    background:none;
+}
+    .skillicons {
+        margin-bottom: 20px;
+    }
+}
