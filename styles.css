@@ -210,6 +210,10 @@ td {
   padding-bottom: 25px;
 }
 
+td p {
+  margin-top: 0;
+}
+
 table tr th {
   text-align: left;
   padding-bottom: 25px;
