@@ -29,8 +29,9 @@
   }
 
   header h5 {
-    font-size: 1em;
+    font-size: 16px;
     width: 100%;
+    line-height: 1.5em;
   }
 
   .client-name,
@@ -49,6 +50,7 @@
 
   .main-project .project-title {
     font-size: 2em;
+    letter-spacing: -1px;
   }
 
   footer {
