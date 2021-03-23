@@ -52,28 +52,15 @@ a:hover {
 }
 
 .main {
-  margin-top: 16%;
+  margin-top: 10%;
+  width: 65%;
 }
 .intro-text {
-  font-family: "Fraunces", sans-serif;
-  font-size: 3.3em;
-  width: 85%;
+  font-family: "Epilogue", sans-serif;
+  font-size: 4em;
+  font-weight: 800;
 }
 
-.linear-wipe {
-  background-image: -webkit-linear-gradient(45deg, #ff593c, hsl(308, 84%, 55%));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 3s infinite linear;
-}
-@-webkit-keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
-  to {
-    -webkit-filter: hue-rotate(-360deg);
-  }
-}
 h5 {
   font-size: 1.3em;
   font-weight: 100;
@@ -108,8 +95,8 @@ h5 {
 }
 
 .proj-title {
-  font-family: "Fraunces", sans-serif;
-  font-weight: 300;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
   margin-bottom: 1em;
   font-size: 2em;
 }
@@ -144,8 +131,8 @@ footer {
 }
 
 footer h2 {
-  font-family: "Fraunces", sans-serif;
-  font-weight: 300;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
   font-size: 3.3em;
 }
 
@@ -166,7 +153,7 @@ footer li {
 }
 
 .project-title {
-  font-family: "Fraunces", sans-serif;
+  font-family: "Epilogue", sans-serif;
   font-size: 2.5em;
 }
 

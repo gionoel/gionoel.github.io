@@ -14,18 +14,28 @@
     margin-right: 16px;
   }
 
+  .main {
+    width: 100%;
+  }
+
   header {
     margin: 20px;
     margin-bottom: 10em;
   }
   header .intro-text {
-    font-size: 1.5em;
+    font-size: 2em;
     width: 100%;
     letter-spacing: -1px;
   }
 
   header h5 {
     font-size: 1em;
+    width: 100%;
+  }
+
+  .client-name,
+  .proj-year {
+    font-size: 1.1em;
   }
 
   .proj-table table {
@@ -41,12 +51,20 @@
     font-size: 2em;
   }
 
+  footer {
+    padding: 5px;
+  }
+
   footer h2 {
     font-size: 2em;
   }
 
   footer li {
     font-size: 2em;
+  }
+
+  footer ul {
+    margin: auto;
   }
 }
 
@@ -56,6 +74,10 @@
   }
   nav li {
     margin-right: 1em;
+  }
+
+  .main {
+    width: 100%;
   }
 }
 
@@ -104,6 +126,9 @@
   }
 
   .project-images img {
+    width: 100%;
+  }
+  .main {
     width: 100%;
   }
 }
