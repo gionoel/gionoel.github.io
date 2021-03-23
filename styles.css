@@ -27,14 +27,14 @@ header {
 nav li {
   font-size: 1.4em;
   font-weight: 600;
-  color: black;
+  color: #2c2c2c;
   list-style-type: none;
   display: inline;
   margin-right: 2em;
 }
 
 nav li a {
-  color: black;
+  color: #2c2c2c;
 }
 
 .nav__links li i {
@@ -48,7 +48,7 @@ a {
 }
 
 a:hover {
-  color: #0077ff;
+  color: #7b5f4a;
 }
 
 .main {
@@ -59,6 +59,7 @@ a:hover {
   font-family: "Epilogue", sans-serif;
   font-size: 4em;
   font-weight: 800;
+  color: #2c2c2c;
 }
 
 h5 {
@@ -69,6 +70,7 @@ h5 {
 .client-name {
   font-family: "Libre Franklin", sans-serif;
   font-size: 1.2em;
+  color: #2c2c2c;
 }
 .proj-year {
   font-size: 1.2em;
@@ -111,10 +113,10 @@ h5 {
   margin-top: 3em;
   background-color: #4a3626;
   border: none;
-  border-radius: 2.5px;
-  padding: 0.8em 2em;
+  padding: 0.8em 1.5em;
   font-weight: 300;
   font-family: "Libre Franklin";
+  font-size: 1em;
 }
 .project-btn-ext a {
   color: white;
@@ -133,14 +135,15 @@ footer {
 
 footer h2 {
   font-family: "Epilogue", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 3.3em;
+  color: #2c2c2c;
 }
 
 footer li {
   font-size: 2.45em;
   font-weight: 600;
-  color: black;
+  color: #2c2c2c;
   list-style-type: none;
   display: inline;
   margin-right: 2em;
@@ -157,10 +160,12 @@ footer li {
   font-family: "Epilogue", sans-serif;
   font-weight: 800;
   font-size: 2.5em;
+  color: #2c2c2c;
 }
 
 .main-project p {
   line-height: 1.4em;
+  color: #2c2c2c;
 }
 
 .project-header-img img {
