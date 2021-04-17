@@ -17,6 +17,7 @@ header {
   margin: 50px;
   margin-bottom: 15%;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -53,7 +54,7 @@ a:hover {
 
 .main {
   margin-top: 10%;
-  width: 65%;
+  width: 75%;
 }
 .intro-text {
   font-family: "Zilla Slab Highlight", sans-serif;
