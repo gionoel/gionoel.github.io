@@ -14,9 +14,6 @@
     margin-right: 16px;
   }
 
-  .logo {
-    width: 60%;
-  }
   .main {
     width: 100%;
   }
@@ -92,7 +89,7 @@
   } */
 
   .logo {
-    width: 70%;
+    width: 60%;
   }
   .intro-text {
     font-size: 2.5em;
